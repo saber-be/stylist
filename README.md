@@ -7,6 +7,7 @@ Stylist is a Laravel 6 compatible package for theming your Laravel applications.
 
 ## Installation
 
+
 Via the usual composer command:
 
     composer require SaberBe/stylist
