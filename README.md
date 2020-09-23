@@ -3,7 +3,7 @@
 
 [![Build Status](https://img.shields.io/travis/SaberBesoftware/stylist.svg?branch=master)](https://travis-ci.org/SaberBesoftware/stylist)
 
-Stylist is a Laravel 5.5+ compatible package for theming your Laravel applications.
+Stylist is a Laravel 6 compatible package for theming your Laravel applications.
 
 ## Installation
 
