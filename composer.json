@@ -1,20 +1,16 @@
 {
-  "name": "floatingpoint/stylist",
-  "description": "Laravel 5 theming package.",
+  "name": "saberbe/stylist",
+  "description": "Laravel 6 theming package.",
   "authors": [
     {
-      "name": "Kirk Bushell",
-      "email": "torm3nt@gmail.com"
-    },
-    {
-      "name": "Mike Dugan",
-      "email": "mike@mjdugan.com"
+      "name": "saber bejestani",
+      "email": "saberbejestani@gmail.com"
     }
   ],
   "require": {
-    "php": "^7.0",
-    "laravelcollective/html": "~5.5",
-    "illuminate/support": "~5.5"
+    "php": "^7.2",
+    "laravelcollective/html": "~6",
+    "illuminate/support": "~6"
   },
   "require-dev": {
     "mockery/mockery": "^0.9.5",
