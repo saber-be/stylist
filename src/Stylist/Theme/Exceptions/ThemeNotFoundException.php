@@ -1,6 +1,6 @@
 <?php
 
-namespace FloatingPoint\Stylist\Theme\Exceptions;
+namespace SaberBe\Stylist\Theme\Exceptions;
 
 class ThemeNotFoundException extends \Exception
 {

@@ -1,8 +1,8 @@
 <?php
-namespace FloatingPoint\Stylist\Html;
+namespace SaberBe\Stylist\Html;
 
 use Collective\Html\HtmlBuilder;
-use FloatingPoint\Stylist\Facades\StylistFacade;
+use SaberBe\Stylist\Facades\StylistFacade;
 use Illuminate\Routing\UrlGenerator;
 
 class ThemeHtmlBuilder

@@ -1,7 +1,7 @@
 <?php
-namespace FloatingPoint\Stylist\Console;
+namespace SaberBe\Stylist\Console;
 
-use FloatingPoint\Stylist\Theme\Theme;
+use SaberBe\Stylist\Theme\Theme;
 use Stylist;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Container\Container;

@@ -1,6 +1,6 @@
 <?php
 
-namespace FloatingPoint\Stylist\Theme;
+namespace SaberBe\Stylist\Theme;
 
 /**
  * Class Loader
@@ -9,7 +9,7 @@ namespace FloatingPoint\Stylist\Theme;
  * from a path, or from a cached value. Either method will return a new Theme object that represents
  * the theme in all its glory.
  *
- * @package FloatingPoint\Stylist\Theme
+ * @package SaberBe\Stylist\Theme
  */
 class Loader
 {

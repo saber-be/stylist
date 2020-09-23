@@ -1,7 +1,7 @@
 <?php
 namespace Tests\Theme;
 
-use FloatingPoint\Stylist\Theme\Loader;
+use SaberBe\Stylist\Theme\Loader;
 
 class LoaderTest extends \Tests\TestCase
 {

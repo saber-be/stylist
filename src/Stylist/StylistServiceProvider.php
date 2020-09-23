@@ -1,11 +1,11 @@
 <?php
-namespace FloatingPoint\Stylist;
+namespace SaberBe\Stylist;
 
 use Cache;
 use Config;
-use FloatingPoint\Stylist\Html\ThemeHtmlBuilder;
-use FloatingPoint\Stylist\Theme\Loader;
-use FloatingPoint\Stylist\Theme\Stylist;
+use SaberBe\Stylist\Html\ThemeHtmlBuilder;
+use SaberBe\Stylist\Theme\Loader;
+use SaberBe\Stylist\Theme\Stylist;
 use Illuminate\Support\AggregateServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 
@@ -92,10 +92,10 @@ class StylistServiceProvider extends AggregateServiceProvider
     {
         $aliasLoader = AliasLoader::getInstance();
 
-        $aliasLoader->alias('Stylist', 'FloatingPoint\Stylist\Facades\StylistFacade');
-        $aliasLoader->alias('Theme', 'FloatingPoint\Stylist\Facades\ThemeFacade');
+        $aliasLoader->alias('Stylist', 'SaberBe\Stylist\Facades\StylistFacade');
+        $aliasLoader->alias('Theme', 'SaberBe\Stylist\Facades\ThemeFacade');
 
-        $this->app->alias('stylist', 'FloatingPoint\Stylist\Theme\Stylist');
+        $this->app->alias('stylist', 'SaberBe\Stylist\Theme\Stylist');
     }
 
     /**
@@ -104,7 +104,7 @@ class StylistServiceProvider extends AggregateServiceProvider
     private function registerCommands()
     {
         $this->commands(
-            'FloatingPoint\Stylist\Console\PublishAssetsCommand'
+            'SaberBe\Stylist\Console\PublishAssetsCommand'
         );
     }
 

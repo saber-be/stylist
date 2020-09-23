@@ -1,7 +1,7 @@
 <?php
 namespace Tests\Theme;
 
-use FloatingPoint\Stylist\Theme\Json;
+use SaberBe\Stylist\Theme\Json;
 
 class JsonTest extends \Tests\TestCase
 {
@@ -28,7 +28,7 @@ class JsonTest extends \Tests\TestCase
     }
 
     /**
-     * @expectedException FloatingPoint\Stylist\Theme\Exceptions\ThemeJsonNotFoundException
+     * @expectedException SaberBe\Stylist\Theme\Exceptions\ThemeJsonNotFoundException
      */
     public function testThemeFileMissing()
     {

@@ -1,7 +1,7 @@
 # Stylist
 ## About
 
-[![Build Status](https://img.shields.io/travis/floatingpointsoftware/stylist.svg?branch=master)](https://travis-ci.org/floatingpointsoftware/stylist)
+[![Build Status](https://img.shields.io/travis/SaberBesoftware/stylist.svg?branch=master)](https://travis-ci.org/SaberBesoftware/stylist)
 
 Stylist is a Laravel 5.5+ compatible package for theming your Laravel applications.
 
@@ -9,11 +9,11 @@ Stylist is a Laravel 5.5+ compatible package for theming your Laravel applicatio
 
 Via the usual composer command:
 
-    composer require floatingpoint/stylist
+    composer require SaberBe/stylist
 
 Then, make sure the Stylist service provider is made available to your application by updating your config/app.php:
 
-    'FloatingPoint\Stylist\StylistServiceProvider',
+    'SaberBe\Stylist\StylistServiceProvider',
 
 You're now ready to go!
 

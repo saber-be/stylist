@@ -1,9 +1,9 @@
 <?php
 namespace Tests\Theme;
 
-use FloatingPoint\Stylist\Theme\Loader;
-use FloatingPoint\Stylist\Theme\Stylist;
-use FloatingPoint\Stylist\Theme\Theme;
+use SaberBe\Stylist\Theme\Loader;
+use SaberBe\Stylist\Theme\Stylist;
+use SaberBe\Stylist\Theme\Theme;
 
 class StylistTest extends \Tests\TestCase
 {
@@ -66,7 +66,7 @@ class StylistTest extends \Tests\TestCase
     }
 
     /**
-     * @expectedException FloatingPoint\Stylist\Theme\Exceptions\ThemeNotFoundException
+     * @expectedException SaberBe\Stylist\Theme\Exceptions\ThemeNotFoundException
      */
     public function testInvalidTheme()
     {
