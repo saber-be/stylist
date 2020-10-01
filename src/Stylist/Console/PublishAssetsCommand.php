@@ -41,6 +41,7 @@ class PublishAssetsCommand extends Command
      */
     protected function setupThemes()
     {
+        //replace fire with dispacth
         $this->laravel['events']->dispatch('stylist.publishing');
 
         $themes = Stylist::themes();
